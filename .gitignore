@@ -1,0 +1,6 @@
+#ignore everuthing
+*
+
+#but not
+!wp-content/themes/bsotheme
+!wp-content/plugins/bso-core
