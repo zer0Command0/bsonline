@@ -141,6 +141,7 @@ add_action( 'widgets_init', 'bsotheme_widgets_init' );
  */
 function bsotheme_scripts() {
 	wp_enqueue_style( 'bsotheme-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'bsotheme-main', get_template_directory_uri() . "/css/main.min.css");
 	wp_style_add_data( 'bsotheme-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'bsotheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
